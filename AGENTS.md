@@ -38,6 +38,11 @@ bun run typecheck
 
 This runs `turbo run typecheck` across all workspaces and ensures no type errors have been introduced. Fix any type errors before moving on.
 
+## Personal Notes
+
+<!-- My fork is primarily for learning how the Vercel AI SDK integrates with a CLI context.
+     Tracking upstream: https://github.com/vercel-labs/ai-cli -->
+
 <!-- opensrc:start -->
 
 ## Source Code Reference
