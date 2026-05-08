@@ -38,6 +38,16 @@ bun run typecheck
 
 This runs `turbo run typecheck` across all workspaces and ensures no type errors have been introduced. Fix any type errors before moving on.
 
+## Testing
+
+After making changes, also run the full test suite to catch regressions:
+
+```sh
+bun test
+```
+
+If adding new functionality, add a corresponding test in `packages/ai-cli/tests/` before considering the work done.
+
 ## Personal Notes
 
 <!-- My fork is primarily for learning how the Vercel AI SDK integrates with a CLI context.
