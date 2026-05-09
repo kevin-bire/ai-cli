@@ -53,6 +53,10 @@ If adding new functionality, add a corresponding test in `packages/ai-cli/tests/
 <!-- My fork is primarily for learning how the Vercel AI SDK integrates with a CLI context.
      Tracking upstream: https://github.com/vercel-labs/ai-cli -->
 
+<!-- Personal workflow: when exploring a new feature, I like to check the opensrc/ directory
+     first for the relevant AI SDK internals before diving into the CLI code itself.
+     Useful entry points: ai/packages/ai/src/core/ for core streaming logic. -->
+
 <!-- opensrc:start -->
 
 ## Source Code Reference
